@@ -2,7 +2,7 @@
  * @Author: Engeryu
  * @Date:   2018-05-04 09:42:11
  * @Last Modified by:   Engeryu
- * @Last Modified time: 2025-03-30 23:19:41
+ * @Last Modified time: 2025-04-04 18:05:12
  * @Description: A simplified version of the "ls" command using custom libraries.
  *               It supports the following options:
  *                 -a   : list all entries (including hidden files)
@@ -216,5 +216,6 @@ static int ls(int argc, char *argv[])
 int main(int argc, char *argv[])
 {
     ls(argc, argv);
+    flush_buffer();  // Ensure all buffered output is written
     return 0;
-} 
+}
