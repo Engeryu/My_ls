@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "dirent.h": "c",
+        "my.h": "c",
+        "stddef.h": "c",
+        "stdlib.h": "c",
+        "stdint.h": "c",
+        "my_memory.h": "c",
+        "my_charsutils.h": "c",
+        "my_numbers.h": "c"
+    }
+}
